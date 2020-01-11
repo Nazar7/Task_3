@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 60" width="40" height="60">
+	<defs>
+		<image width="40" height="60" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAA8CAMAAAAjZwjSAAAAAXNSR0IB2cksfwAAADNQTFRF////////////////////////////////////////////////////////////////////5RDoRwAAABF0Uk5TAM//799gIL+vMECPEIBQcJ+eCU1LAAABxElEQVR4nI2W27aDIAxEIYBUD1T//2sPIpcJBFfz1rqdZEyIKpVC01to1cK8graDjsymFmHJwS9PnwXnUFCpnej4RVCpP37jSlCpYCj+IrjyMwmqhZ9ZUPYjCd5+hJgFlYoSKDjcDH3n1ILDD/n5bsHhQbQLaWhKY+lPqDsVbsPwhwkSGCz3k5xIDyLFlwj9iE6e8HhJdlKSoR90Ek5P5M9Ogh90speDpru3JoNOgibjQnAGyFYYOql50iD37AVgTnQVd3CcS0qNPSEqGQMR+kkmTtaTfhnB7MdDMfc/3zl17k+SxaY0M7zHF113MXBWkludNL+WTc2WmYtJ7mVhGezpg2x8PkK0aYFFHLqa9C6ABTOcC/e1gu0NTHUXF36QHMDY1sDR+iGBAWbG84PBwRP2ysGPFgfZouJ9YCBfVGl3rEDLZoHrI+iGA88SIGjHhYYbAMBj2iARJAH004bsfUJwbMUj6WdwbG6W7APcwH0clxx9gBs4DWCOPm0VnOZvvL+CsiAIFHBbvnKrxwJey+1an9oD4pOdJWMH43pd185m8E2wzkoG4+Kb4IlngG8wLF8oVdI9oPyqRsnXVzVE+/rSw4V/qU4MbSREKMYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Section - Works">
+		<g id="Title">
+			<use id="Icon-Works" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

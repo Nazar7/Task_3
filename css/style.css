@@ -1,0 +1,643 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot);
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_1_0.svg#wf) format("svg");
+    font-weight: 300;
+    font-style: normal
+    }
+    @font-face {
+    font-family: ProximaNova;
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot);
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_4_0.svg#wf) format("svg");
+    font-weight: 400;
+    font-style: normal
+    }
+    @font-face {
+    font-family: ProximaNova;
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot);
+    src: url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.eot?#iefix) format("embedded-opentype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff2) format("woff2"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.woff) format("woff"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.ttf) format("truetype"),url(https://d25purrcgqtc5w.cloudfront.net/dist/fonts/proximanova/302D42_5_0.svg#wf) format("svg");
+    font-weight: 700;
+    font-style: normal
+    }
+
+    @font-face {
+        font-family: PT Sans;
+        font-style: normal;
+        font-weight: 400;
+        src: url(../fonts/PTSans-Regular.ttf);
+      }
+
+body,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    padding: 0px;
+}
+
+
+
+header{
+    background-image: url('../img/head.png');
+    height: 1070px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    height: 1070px;
+
+}
+
+.navbar{
+  margin:0px;
+  height: 120px;
+}
+
+.nav__logo{
+    width: 328px;
+}
+
+.nav__menu{
+    width: 100%;   
+}
+
+.navbar-nav{
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu__link{
+font-family: ProximaNova;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 17px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.header__content{
+    height: 100%;
+
+}
+
+.header__title{
+    width: 100%;
+    font-size: 72px;
+    color: white;
+    font-family: ProximaNova;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 280px;
+    margin-bottom: 0px;
+}
+
+.header__text{
+    font-size: 30px;
+    color: white;
+    font-style: italic; 
+    text-align: center;
+    font-family: PT Sans;
+
+}
+
+.aboutUs{
+    height: 1600px;
+    background-color: #ebebeb;
+}
+
+.aboutUs__block__1{
+    margin-top: 125px;
+    height: 555px;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+/* .aboutUs__img{
+  margin: 0px;
+  padding: 0px;
+} */
+
+.aboutUs__main__img{
+    position: absolute;
+}
+
+.aboutUs__img__text{
+    font-size: 24px;
+    font-family: ProximaNova;
+    color: black;
+    z-index: 1;
+    display: block;
+}
+
+.aboutUs__text{
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.button{
+    margin-top: 84px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.button__learn{
+    width: 195px;
+    height: 50px;
+    background-color: none;
+    font-style: italic; 
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid black;
+
+}
+
+.box__gray{
+    width: 370px;
+    height: 400px;
+    background-color: #dbdbdb;
+    padding: 0px;
+}
+
+.box__white{
+    width: 380px;
+    height: 400px;
+    background-color: #ebebeb;
+    padding: 0px;
+}
+
+.service{
+    width: 100%;
+    height: 800px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-top: 120px;
+}
+
+.service__block{
+    width: 760px;
+    height: 800px;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.service__gray{
+    background-color: #dbdbdb;
+    width: 380px;
+    height: 400px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.service__white{
+    background-color: #ebebeb;
+    width: 380px;
+    height: 400px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.service__images__title{
+    width: 100%;
+}
+
+.ourService{
+    width: 380px;
+    height: 800px;
+    padding: 0px;
+    background-image: url(../img/ourservice.png);
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   align-content: flex-start;
+    text-align: center;
+    
+}
+
+.ourService__logo{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    
+}
+
+.ourService__title{
+    font-size: 35px;
+    color: white;
+}
+
+.ourService__text{
+    font-size: 18px;
+    color: white;
+    margin-top: 100px;
+}
+
+.works{
+    width: 100%;
+    height: 1000px;
+    background-image: url(../img/works-bg.png);
+    background-size: cover;
+    background-position-y:center;
+    background-position-x:center;
+}
+
+.works__container{
+    height: 1000px;
+}
+
+.works__logo{
+    text-align: center;
+}
+
+.work__title{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-family: ProximaNova;
+    font-weight: 500;
+
+}
+
+.work__title__teem{
+    text-align: center;
+    font-size: 36px;
+    color: #665f60;
+    font-family: ProximaNova;
+    font-weight: 500;
+}
+
+.container__works{
+    height: 1000px;
+}
+
+.works__img{
+    padding: 0px;
+    margin: 0px;
+}
+
+.slider{
+    width: 730px;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.prev{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url('../img/arrowleft.svg') no-repeat;
+    position: absolute;
+    left: -50px;
+    top: 40%;
+  }
+
+  .next{
+    display: block;
+    height: 40px;
+    width: 40px;
+    background: url('../img/arrow-right.svg') no-repeat;
+    position: absolute;
+    right: -50px;
+    top: 40%;
+  }
+
+  .button__gallery{
+    width: 195px;
+    height: 50px;
+    background-color: none;
+    font-style: italic; 
+    background-color:rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+  }
+
+  .button__gal{
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+  }
+
+.slick-dots{
+    position: relative;
+    top: 570px;
+    height: 40px;
+}
+
+.slider__row{
+    height: 630px;
+}
+
+  .teem{
+      background-color: #ebebeb;
+      height: 823px;
+  }
+
+  .teem__container{
+      height: 823px;
+  }
+
+  .teem__slide{
+    height: 475px;
+    width: 350px;
+    position: relative; 
+
+}
+
+  .teem__foto{
+    width: 100%;
+    border-radius: 50%;
+    height: auto;
+   position: absolute;
+   text-align: center;
+   top: 0px;
+   z-index: 1;
+  }
+
+  .teem__foto__img{
+    margin: 0 auto;
+  }
+
+  .teem__description{
+      width: 100%;
+      height: 285px;
+      background-color: #fff;
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content : center;
+      position: absolute;
+      top: 135px;
+  }
+
+  .teem__name{
+      width: 100%;
+      text-align: center;
+      font-size: 24px;
+      color: #9f9acf;
+      font-family: ProximaNova;
+      font-weight: 600;
+      margin-top: 80px;
+      margin-bottom: 0px;
+
+  }
+
+  .teem__position{
+    font-size: 24px;
+    width: 100%;
+      text-align: center;
+      color: #b8b4b5;
+      font-style: italic;
+      font-family: PT Sans; 
+  }
+
+  .teem__contacts{
+      height: 70px;
+      position: absolute;
+      bottom: 0px;
+      width: 100%;
+      background-color: #9f9acf;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 70px;
+      letter-spacing: 10px;
+  }
+
+  .teem__contacts a{
+      margin: 0px 5px;
+  }
+
+  .slick-list{
+      width: 100%;
+  }
+
+  .contacts{
+      height: 900px;
+  }
+
+  .contacts__container{
+    height: 900px;
+  }
+
+  #googleMap{
+      width: 100%;
+      height: 900px;
+      position: absolute;
+      z-index: 0;
+  }
+
+  .shadow{
+    width: 100%;
+    height: 900px;
+      background-color: rgba(80, 60, 250, 0.9);
+      opacity: 0.2;
+      position: absolute;
+      z-index: 100;
+  }
+
+  .work__title__location{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+    font-family: ProximaNova;
+    font-weight: 500;
+    position: relative;
+    z-index: 100;
+    width: 100%;
+  }
+
+  .contacts__logo{
+    text-align: center;
+    z-index: 200;
+    position: relative;
+  }
+
+  .work__logo__location{
+    width: 100%;
+  }
+
+  .form{
+    text-align: center;
+    height: 285px;
+    width: 860px;
+    margin: 0 auto;
+    top: 400px;
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+
+  form{
+      height: 270px;
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+
+  input{
+      width: 420px;
+      height: 60px;
+      background: transparent;
+      opacity: 0.4;
+      background-color: gray;
+      position: relative;
+      z-index: 300;
+      border: 0;
+  }
+
+  textarea{
+      height: 200px;
+      width: 100%;
+      background: transparent;
+      opacity: 0.4;
+      background-color: gray;
+      border: 0;
+      position: relative;
+      z-index: 300;
+  }
+
+  ::placeholder{
+    color: white;
+    font-style: italic; 
+    font-family: PT Sans;
+    padding-left: 15px;
+  }
+
+  .row__form{
+      width: 100%;
+      display: inline-flex;
+      justify-content: center;
+  }
+
+  .sendMessage{
+      width: 290px;
+      height: 70px;
+      background-color: #9f9acf;
+      font-family: ProximaNova;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 70px;
+      color: white;
+      position: relative;
+      z-index: 300;
+     
+  }
+
+  .col__button{
+      display: inline-flex;
+      justify-content: center;
+  }
+
+  .button__location__logo{
+    background-color: #9f9acf;
+    width: 80px;
+    height: 90px;
+    display: inline-flex;
+    justify-content: center;
+   align-items: center;
+   position: relative;
+   z-index: 300;
+  }
+
+  .contacts__button__location{
+      height: 90px;
+      width: 70px;
+      display: inline-flex;
+      position: absolute;
+      right: 0px;
+      
+     
+  }
+
+  .show{
+    width: 350px;
+  }
+
+  .hide{
+    display: block;
+  }
+
+  .work__text__location{
+      font-size: 18px;
+      color: #665f60;
+      height: 100%;
+      margin-bottom: 0px;
+      line-height: 30px;
+      background-color: #dad8e3;
+     text-align: center;
+    display: none;
+
+  }
+
+  .button__location__logo{
+    width: 90px;
+    height: 80px;
+}
+
+  .button__location__logo img{
+      width: 45px;
+      height: 45px;
+  }
+  
+footer{
+    background-color: #9f9acf;
+    height: 185px;
+    width: 100%;
+
+}
+
+.footer__row{
+    height: 100%;
+}
+
+.footer__col{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+
+}
+
+.footer__col p{
+    color: white;
+    font-size: 18px;
+    font-family: PT Sans;
+}
+
+.footer__col__social{
+    width: 100%;
+    height: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.footer__container{
+    height: 185px;
+}
+  

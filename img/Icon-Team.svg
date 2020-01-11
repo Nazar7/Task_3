@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+	<defs>
+		<image width="60" height="60" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAA8CAMAAAANIilAAAAAAXNSR0IB2cksfwAAADNQTFRFZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9grhrJKwAAABF0Uk5TAECPv//vIDCfUM8Qr99wgGC31KlZAAACWklEQVR4nM1W2XLkIAwMIDC3+P+vDWBsgw0ZK1WpXT2ZGRodtFp8fa2McQFScLbcsDYloJlQVOwmQWqjlNEAciNjbXOoLBVtwbrj21kQFKwB6a6VkkCpmgfeLzloAjjAkCWDQAAD/Lz+O7Acw95AEsAeYr9E8ARwgtBdlZOQCOBc7u5yNKnY5XJAN98us5vYWQkgpMxulQLQgi5mwtGS4Rcd7WLtaJHc573/g3mY2juezLEv6T3f9s/A7iU4zNjIwL4Cizn4nYJqwOePOEri0uLsSm/ysLRtEO3dcr1eTqzw7MH0sl4l7nBz7SbnLcyF+4SgCFERoRFLEaIsQuLczixRiIyEo0QZKg0Fu2vm/nXpKMEuMAmmWGJ3cP7po/8t8aqZ8g6WVUl5Wr1OVPJ1S358eXMHJy/an36ixal6DD4e4T1zdiz6Ogr8cHMOy7E2HkFt6g5W51/RFv94ui+jJWBrG1OynuUseLtuVVyFtuB5cwtE6ZpZ4Hcwr/FK3TykvI03LG9BYAUaN8vZmXpAU5lCIl674Mgfe0rP1J6JE134z7LAnJI1PB/OETvIQLqas7xUAM7CAXzsgHQ9jFz+7MBd9nNTHC4VLXPAXrrofGXAQuoyA6FXCcxSnhO/CMt2ZguMrNMOxiLu7LzqWXCpzuNOk1UUsDARu5jiHkQJVgwatSX0wl4oKzyO/VQibAnEQj6C1JQmkme0SlfuvcKbymDdV1VhJYVA88NYUQb3xsXHpm0nf661xsR61XGMJdRNDQJfqIlqKrSsN1+R4DyBYS72cIjI5Y7sifsGizMU+c/m3BoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Section - Our Team">
+		<g id="Title-Our Team">
+			<use id="Icon-Team" href="#img1" x="0" y="0" />
+		</g>
+	</g>
+</svg>

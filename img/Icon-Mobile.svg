@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 61" width="36" height="61">
+	<defs>
+		<image width="36" height="61" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAA9CAMAAADyBzv5AAAAAXNSR0IB2cksfwAAAYxQTFRFZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9gZl9g/iFaDQAAAIR0Uk5TAC6Tv8DCuHIXbO/+/+1hbvy3VT1COl/Q8Fh90ooHAQmWzbYfONV8lXBcwbq5vq4+goRzEjxLSE0xbX/WsbDbmjs5pgIDg2V5jZKMyq9jcWtgdCiGoSNvKrL59qIegY/4gJ2F+4d14unxVwik9TYVDuM/BTLansfgiImc7Lwijnh7dzQQfYrZ1gAAAWpJREFUeJztlVs3QkEYQD8dFfVJhSgKISKU5BJS6iBJlMg1cgnJ/X6//HHnWFnN0mny6KH9NnvtNTPfPJwDAFAiYkoZYcQSaRnwlMvkmB95hYJrKpWoUldVC1OjqcU6LejqsUFvyE9jE0qgWW5sARqtbUqQo8lAjQztCIgdmZW5s8uSpbunN+OtZGT7NVefUGTvdwxkGRzSk9Ew9UoATj4aGTXSGHPxUWG4aNztoOGZ4COp10fDy5LT5cNajIpRMSpG/zmaLBBN8ZF42k9jJvDnr+9scI4gpDHPh0ihsPDRgk+fxRCOLLJRL2F8ET5aIm+5HFvB1bV1Um3kPIFOGdh0xYM5UYg0ftyCbXSSKoGwg7vkn3MP95nkwSFhjlIIzHEyTaiTFDcye0oYtewMzlUYcBPuIu24JA8zX+E1+MI3eBvzJ+4ysOw9a/tZ2B7Ej/j0zLVhEe214y/R7x3tHu2r6U0I3bv64xPgC/b7hYonVvulAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Section - Services">
+		<g id="Description">
+			<g id="Mobile">
+				<use id="Icon-Mobile" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>

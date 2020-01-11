@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26 42" width="26" height="42">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #e6e6e6 } 
+	</style>
+	<g id="Section - Works">
+		<g id="Button">
+			<g id="Button-slider-L/R">
+				<path id="interface - arrow left" class="shp0" d="M23.88 2.53C24.15 3.04 23.99 3.69 23.52 3.99L3.46 21.86C2.99 22.15 2.39 21.98 2.12 21.47C1.85 20.96 2.01 20.3 2.48 20.01L22.54 2.14C23.01 1.85 23.61 2.02 23.88 2.53ZM23.88 39.47C24.15 38.96 23.99 38.3 23.52 38.01L3.46 20.14C2.99 19.85 2.39 20.02 2.12 20.53C1.85 21.04 2.01 21.69 2.48 21.99L22.54 39.86C23.01 40.15 23.61 39.98 23.88 39.47Z" />
+			</g>
+		</g>
+	</g>
+</svg>
