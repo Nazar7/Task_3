@@ -1,7 +1,7 @@
 
 		$(".button__location__logo").click(function(){
-				$('.contacts__button__location').toggleClass("show");
-				$('.work__text__location').toggleClass("work__text__location");		
+				// $('.contacts__button__location').toggleClass("show");
+				$('.contacts__button__address').toggleClass("show");		
 			});
 			
 

@@ -119,8 +119,9 @@ color: #FFFFFF;
     margin-top: 125px;
     height: 555px;
     display: inline-flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    width: 1140px;
+    max-width: 1140px;
 }
 
 /* .aboutUs__img{
@@ -146,6 +147,10 @@ color: #FFFFFF;
     padding: 0;
     width: 100%;
     word-wrap: break-word;
+}
+
+.text__block{
+    width: 100%;
 }
 
 .button{
@@ -187,12 +192,28 @@ color: #FFFFFF;
     margin-top: 120px;
 }
 
+@media screen and (max-width: 992px) {
+    .service {
+      display: none;
+    }
+    .aboutUs{
+        height: 720px;
+    }
+  }
+
 .service__block{
     width: 760px;
     height: 800px;
     display: inline-flex;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width: 992px) {
+    .service__block {
+      display: none;
+    }
+  }
+
 
 .service__gray{
     background-color: #dbdbdb;
@@ -346,6 +367,17 @@ color: #FFFFFF;
 .slider__row{
     height: 630px;
 }
+
+@media screen and (max-width: 992px) {
+    .slider__row {
+      width: 550px;
+    }
+
+    .slider__img{
+        width: 250px;
+        height: 300px;
+    }
+  }
 
   .teem{
       background-color: #ebebeb;
@@ -549,8 +581,8 @@ color: #FFFFFF;
 
   .button__location__logo{
     background-color: #9f9acf;
-    width: 80px;
-    height: 90px;
+    width: 90px;
+    height: 80px;
     display: inline-flex;
     justify-content: center;
    align-items: center;
@@ -559,32 +591,36 @@ color: #FFFFFF;
   }
 
   .contacts__button__location{
-      height: 90px;
-      width: 70px;
+      height: 80px;
       display: inline-flex;
       position: absolute;
       right: 0px;
-      
-     
   }
+
+  /* .show{
+    width: 350px;
+  } */
 
   .show{
-    width: 350px;
+    display: none;
   }
 
-  .hide{
-    display: block;
-  }
+.contacts__button__address{
+    width: 260px;
+  
+    
+}
 
   .work__text__location{
+      width: auto;
       font-size: 18px;
       color: #665f60;
       height: 100%;
       margin-bottom: 0px;
-      line-height: 30px;
+      line-height: 25px;
       background-color: #dad8e3;
      text-align: center;
-    display: none;
+
 
   }
 
